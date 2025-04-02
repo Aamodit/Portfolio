@@ -43,7 +43,7 @@ const Contact = () => {
 
   const contactInfo = [
     { icon: Mail, text: "aamoditsaini@gmail.com", href: "mailto:aamoditsaini@gmail.com" },
-    { icon: Linkedin, text: "LinkedIn", href: "https://www.linkedin.com/in/aamodit-saini/", target: "_blank" },
+    { icon: Linkedin, text: "LinkedIn", href: "https://www.linkedin.com/in/aamoditsaini/", target: "_blank" },
     { icon: Github, text: "GitHub", href: "https://github.com/Aamodit", target: "_blank" },
     { icon: Phone, text: "+91-9179949698", href: "tel:+919179949698" },
   ]
