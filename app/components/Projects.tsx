@@ -8,21 +8,32 @@ import { AnimatedGradient } from "./ui/animated-gradient"
 
 const projects = [
   {
+    title: "AI Portfolio Builder",
+    description:
+      "An AI-powered platform that converts resumes into interactive portfolios. Integrates Gemini API to extract content from PDFs, auto-syncs GitHub projects, and provides multiple templates with live customization. Supports social profile linking and in-browser editing for a personalized developer presence.",
+    image: "https://assets.devfolio.co/hackathons/76eb778bfb4d48d688af79f9353003e7/projects/82e918a466b7475baa02a8fca562947c/6698b5da-8708-47ee-908f-e4e70d7471aa.jpeg",
+    liveLink: "https://falcon-portfolio-ai.vercel.app/",
+    githubLink: "https://github.com/Aamodit/Ai-Portfolio-Builder",
+    technologies: ["Next.js", "Tailwind CSS", "Gemini API", "PostgreSQL", "NextAuth", "PDF.js", "GitHub API"],
+    status: "Made @ Hack Byte 3.0, IIITDM Jabalpur",
+  },
+  {
     title: "Serve Easy Website",
     description:
       "A service aggregator platform connecting users with local professionals (plumbers, electricians, laundry services). Integrated with a Telegram bot for real-time updates and bookings. Features secure payment gateways and real-time notifications for an enhanced user experience.",
     image:
-      "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     liveLink: "https://serve-easy.vercel.app/",
     githubLink: "https://github.com/Aamodit/serve-easy",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Telegram API", "Payment Gateway"],
-    status: "Under Development",
+    status: "Made @ LNM Hacks 7.0 , LNMIIT Jaipur",
   },
   {
     title: "Disney Plus Clone",
     description:
       "A visually accurate clone of Disney+, focusing on UI/UX consistency and responsiveness. Built with React.js and Tailwind CSS for a smooth front-end experience. Optimized for cross-device compatibility with dynamic content rendering.",
-    image: "https://images.unsplash.com/photo-1643208589884-1aa3a8a67b67?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image:
+      "https://images.unsplash.com/photo-1643208589884-1aa3a8a67b67?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D",
     liveLink: "https://aamodit-disney-plus-clone.vercel.app",
     githubLink: "https://github.com/Aamodit/Disney-Plus-Clone",
     technologies: ["React.js", "Tailwind CSS", "JavaScript", "Responsive Design"],
@@ -32,7 +43,7 @@ const projects = [
     description:
       "An exciting new project leveraging the full MERN (MongoDB, Express.js, React.js, Node.js) stack is in the works. Stay tuned for a powerful and innovative web application!",
     image:
-      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     liveLink: "#",
     githubLink: "#",
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
