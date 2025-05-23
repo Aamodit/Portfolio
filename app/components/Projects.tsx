@@ -18,6 +18,37 @@ const projects = [
     status: "Made @ Hack Byte 3.0, IIITDM Jabalpur",
   },
   {
+    title: "Password-Based Door Lock System (Assisted)",
+    description:
+      "Developed a secure digital door lock system using Arduino (ATmega328P), 4x4 keypad, servo motor, I2C LCD, and buzzer. Implemented password authentication logic with user feedback and locking mechanism control.",
+    image: "https://www.tinkercad.com/things/8lmyU5Zd3sz/editel?sharecode=NTCrn903nhEnSAjqbD9w9zgRmD5zSXsTBmke48emH_k",
+    liveLink: "https://www.tinkercad.com/things/8lmyU5Zd3sz/editel?sharecode=NTCrn903nhEnSAjqbD9w9zgRmD5zSXsTBmke48emH_k",
+    githubLink: "#",
+    technologies: ["Arduino (ATmega328P)", "4x4 Keypad", "Servo Motor", "I2C LCD", "Buzzer"],
+    status: "Arduino Project",
+  },
+  {
+    title: "Social Media App",
+    description:
+      "Built a social platform featuring real-time interaction, JWT authentication, like & comment features, and user profile management.",
+    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    liveLink: "https://aamodit-social-media-app.vercel.app/",
+    githubLink: "https://github.com/Aamodit/Social-Media-App",
+    technologies: ["MERN Stack", "JWT Authentication", "Real-Time Interaction"],
+    status: "Full-Stack MERN Application",
+  },
+  {
+    title: "FM Receiver (Minor Project)",
+    description:
+      "Designed a superheterodyne FM receiver using discrete components including BF494/BF495 transistors and LM386 audio amplifier. Built and tested circuit stages for RF amplification, tuning, demodulation, and audio output.",
+    image: "https://drive.google.com/thumbnail?id=1-fpvhw9xxHz9aOJKear6zef3viuNUbCO&sz=w1000",
+    liveLink:
+      "https://docs.google.com/document/d/19wZ2e9e-_a1Ph5Zlln_SyyNob4S8h2aS/edit?usp=sharing&ouid=112112770405745660199&rtpof=true&sd=true",
+    githubLink: "#",
+    technologies: ["Analog Circuit Design", "Transistors (BF494/BF495)", "Audio Amplifier (LM386)"],
+    status: "Analog Communication Project",
+  },
+  {
     title: "Serve Easy Website",
     description:
       "A service aggregator platform connecting users with local professionals (plumbers, electricians, laundry services). Integrated with a Telegram bot for real-time updates and bookings. Features secure payment gateways and real-time notifications for an enhanced user experience.",
@@ -38,18 +69,8 @@ const projects = [
     githubLink: "https://github.com/Aamodit/Disney-Plus-Clone",
     technologies: ["React.js", "Tailwind CSS", "JavaScript", "Responsive Design"],
   },
-  {
-    title: "Coming Soon: MERN Stack Project",
-    description:
-      "An exciting new project leveraging the full MERN (MongoDB, Express.js, React.js, Node.js) stack is in the works. Stay tuned for a powerful and innovative web application!",
-    image:
-      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    liveLink: "#",
-    githubLink: "#",
-    technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
-    status: "Coming Soon",
-  },
-]
+];
+
 
 const Projects = () => {
   const [ref, inView] = useInView({

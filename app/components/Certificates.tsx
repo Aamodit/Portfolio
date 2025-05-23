@@ -29,12 +29,21 @@ const certificates = [
 ]
 
 const activities = [
-  "Student Coordinator @ eLSI Lab, IIT Bombay",
-  "Core Team @ ACM-JEC, GDSC-JEC, JLUG-JEC",
-  "Organizing Team & Branch Representative @ TEDxJEC (2024)",
-  "Hackathon Finalist @ LNM Hacks 7.0 (2025), HackJEC (SIH College Round) (2024)",
-  "Volunteer @ TIESD (National Conference) (2024)",
-]
+  "Merited, Student Coordinator & Founding Member, e-Yantra Lab Setup Initiative (eLSI) by IIT Bombay",
+  "*Club Activity :*",
+  "Vice Chairperson, ACM-JEC",
+  "Management Team Member, Google Developer Student Club (GDSC-JEC)",
+  "Core Team Member, JLUG-JEC",
+  "*Hackathons :*",
+  "HackByte 3.0, IIITDM Jabalpur",
+  "LNM Hacks 7.0, LNMIIT Jaipur",
+  "HackJEC 2024 (SIH Internal Round)",
+  "*Events Handled :*",
+  "Organizing Team & Branch Representative, TEDxJEC (2024)",
+  "Volunteer, Technological Innovation in Engineering Science for Sustainable Development (TIESD 2024) — National Conference",
+  "Organized, eLSI (e-Yantra Lab Setup Initiative by IIT Bombay) lab inaugural",
+];
+
 
 const Certificates = () => {
   const [ref, inView] = useInView({

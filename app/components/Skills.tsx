@@ -9,92 +9,54 @@ const skillGroups = [
   {
     category: "Web Development",
     skills: [
-      {
-        name: "HTML",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
-      },
+      { name: "HTML", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" },
       { name: "CSS", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" },
-      {
-        name: "JavaScript",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-      },
-      {
-        name: "TypeScript",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "React.js",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-      },
+      { name: "JavaScript (ES6+)", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" },
+      { name: "TypeScript", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
+      { name: "React.js", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
       { name: "Next.js", icon: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" },
       { name: "Tailwind CSS", icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
-      {
-        name: "Redux",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
-      },
-    ],
-  },
-  {
-    category: "Backend Development",
-    skills: [
-      {
-        name: "Node.js",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-      },
-      {
-        name: "Express.js",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
-      },
-      {
-        name: "MongoDB",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-      },
-      {
-        name: "Mongoose",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-      },
+      { name: "Redux", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
+      { name: "Node.js", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" },
+      { name: "Express.js", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" },
       { name: "RESTful APIs", icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
+      { name: "MongoDB", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" },
+      { name: "Mongoose", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" },
       { name: "JWT", icon: "https://cdn.worldvectorlogo.com/logos/jwt-3.svg" },
       { name: "OAuth", icon: "https://oauth.net/images/oauth-logo-square.png" },
-    ],
-  },
-  {
-    category: "Programming Languages",
-    skills: [
-      { name: "C", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" },
-      {
-        name: "C++",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
-      },
-      {
-        name: "JavaScript",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-      },
-    ],
-  },
-  {
-    category: "Embedded Systems",
-    skills: [
-      {
-        name: "8051",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/embeddedc/embeddedc-original.svg",
-      },
-      { name: "Keil", icon: "/placeholder.svg?height=48&width=48" },
-      { name: "SumulIDE", icon: "/placeholder.svg?height=48&width=48" },
-    ],
-  },
-  {
-    category: "Version Control & Deployment",
-    skills: [
       { name: "Git", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" },
-      {
-        name: "GitHub",
-        icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
-      },
+      { name: "GitHub", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" },
       { name: "Vercel", icon: "https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" },
     ],
   },
-]
+  {
+    category: "Electronics & Telecommunication",
+    skills: [
+      { name: "Embedded System Design", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Circuit Simulation & Debugging", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Keil", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "SumulIDE", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Atmel Studio", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Multisim", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Proteus", icon: "/placeholder.svg?height=48&width=48" },
+    ],
+  },
+  {
+    category: "Programming Languages & Concepts",
+    skills: [
+      { name: "C", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" },
+      { name: "C++", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" },
+      { name: "Python", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
+      { name: "JavaScript", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" },
+      { name: "Embedded C", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Verilog", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Assembly (8051)", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Data Structures & Algorithms (DSA)", icon: "/placeholder.svg?height=48&width=48" },
+      { name: "Object-Oriented Programming (OOP)", icon: "/placeholder.svg?height=48&width=48" },
+    ],
+  },
+];
+
 
 const Skills = () => {
   const [ref, inView] = useInView({

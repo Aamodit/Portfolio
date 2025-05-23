@@ -37,7 +37,7 @@ const Contact = () => {
     await new Promise((resolve) => setTimeout(resolve, 1000))
 
     setIsSubmitting(false)
-    setSubmitMessage("Thank you for your message. I'll get back to you soon!")
+    setSubmitMessage("Form Services are not available right now. Please contact me via other means.")
     setFormData({ name: "", email: "", message: "" })
   }
 
@@ -116,7 +116,7 @@ const Contact = () => {
                 <Send className="ml-2 h-5 w-5" />
               </button>
             </form>
-            {submitMessage && <p className="mt-4 text-green-400">{submitMessage}</p>}
+            {submitMessage && <p className="mt-4 text-red-400">{submitMessage}</p>}
           </div>
           <div className="space-y-4">
             {contactInfo.map((item, index) => (
